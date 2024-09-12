@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.aws-btn {
+
+  --slider-height-percentage: 45%;
+  --slider-transition-duration: 628ms;
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 18px;
+  --organic-arrow-color: black;
+  --control-button-width: 8%;
+  --control-button-height: 10%;
+  --control-button-background: white;
+  --control-bullet-color: transparent;
+  --control-bullet-active-color: transparent;
+  --loader-bar-color: transparent;
+  --loader-bar-height: 8px;
+  overflow:hidden
+  }
+  
+  
+
+
+
+
