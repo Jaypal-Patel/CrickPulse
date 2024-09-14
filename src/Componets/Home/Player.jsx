@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
-import CardComponent from "../../Ficher/CardComponet";
+import { useSelector } from "react-redux";
+
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 import PlayerCategoryMenu from "../../Ficher/PlayerCategoryMenu";
-import { useSelector } from "react-redux";
+import CardComponent from "../../Ficher/CardComponet";
+import { player } from "../../Data/Players";
 
 function Player() {
   const API = "https://mocki.io/v1/02d7a5a5-f252-4c8a-9aa1-288666a84f0c";
@@ -11,21 +14,21 @@ function Player() {
   const profession = useSelector((state) => state.category.category);
   const search = useSelector((state) => state.search.search);
 
-  const [player, setPlayer] = useState([]);
+  // const [player, setPlayer] = useState([]);
 
-  const fetchApiData = async (url) => {
-    try {
-      const res = await fetch(url);
-      const data = await res.json();
-      setPlayer(data);
-    } catch (error) {
-      console.log("Error", error);
-    }
-  };
+  // const fetchApiData = async (url) => {
+  //   try {
+  //     const res = await fetch(url);
+  //     const data = await res.json();
+  //     setPlayer(data);
+  //   } catch (error) {
+  //     console.log("Error", error);
+  //   }
+  // };
 
-  useEffect(() => {
-    fetchApiData(API);
-  }, []);
+  // useEffect(() => {
+  //   fetchApiData(API);
+  // }, []);
 
   const notify = (name) =>
     toast.success(`Add ${name}`, { position: "top-center" });

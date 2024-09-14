@@ -13,7 +13,7 @@ function Header() {
     <>
       <div className="header flex justify-between items-center w-full h-[60px] shadow-md px-16 fixed z-20 bg-white">
         <div className="flex items-center w-[90px] h-[90px]">
-          <img src="/public/header/logo2.png" className="object-cover" />
+          <img src="/public/image/logo2.png" className="object-cover" />
         </div>
 
         <div className="navBar flex gap-10 text-lg font-medium ml-[190px]">
