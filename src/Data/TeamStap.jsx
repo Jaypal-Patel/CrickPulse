@@ -2,12 +2,12 @@ export const coachingStaff = [
   {
     name: "Gautam Gambhir",
     position: "Head Coach",
-    imgSrc: "/public/image/Gautam.avif",
+    imgSrc: "/public/media/image/Gautam.avif",
   },
   {
     name: "Abhishek Nayar",
     position: "Assistant Coach",
-    imgSrc: "/public/image/Abhishek.jpg",
+    imgSrc: "/public/media/image/Abhishek.jpg",
   },
   {
     name: "Ryan Ten Doeschate",
@@ -18,7 +18,7 @@ export const coachingStaff = [
   {
     name: "Morne Morkel",
     position: "Bowling Coach",
-    imgSrc: "/public/image/Morkel.webp",
+    imgSrc: "/public/media/image/Morkel.webp",
   },
   {
     name: "T Dilip",

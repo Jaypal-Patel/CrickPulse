@@ -21,7 +21,7 @@ function Hero() {
       <div className="flex h-full w-full">
         <div className="w-full">
           <img
-            src="/public/image/India3.webp"
+            src="/public/media/image/India3.webp"
             alt="img1"
             className="object-cover w-full bg-center"
           />
@@ -33,7 +33,7 @@ function Hero() {
       <div className="flex w-full h-fit">
         <div className="w-full">
           <img
-            src="/public/image/India3.webp"
+            src="/public/media/image/India3.webp"
             alt="img1"
             className="object-cover w-full bg-center"
           />

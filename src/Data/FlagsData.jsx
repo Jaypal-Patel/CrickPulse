@@ -1,44 +1,44 @@
 export const Flags = [
   {
-    image: "/public/image/India.png",
+    image: "/public/media/image/India.png",
     name: "India",
   },
   {
-    image: "/public/image/Auatralia.png",
+    image: "/public/media/image/Auatralia.png",
     name: "Auatralia",
   },
   {
-    image: "/public/image/Afghanjistan.jpeg",
+    image: "/public/media/image/Afghanjistan.jpeg",
     name: "Afghanjistan",
   },
   {
-    image: "/public/image/England.png",
+    image: "/public/media/image/England.png",
     name: "England",
   },
 
   {
-    image: "/public/image/SriLanka.png",
+    image: "/public/media/image/SriLanka.png",
     name: "Sri Lanka",
   },
   {
-    image: "/public/image/NewZealand.png",
+    image: "/public/media/image/NewZealand.png",
     name: "New Zealand",
   },
 
   {
-    image: "/public/image/Bangladesh.jpeg",
+    image: "/public/media/image/Bangladesh.jpeg",
     name: "Bangladesh",
   },
   {
-    image: "/public/image/WestIndies.jpeg",
+    image: "/public/media/image/WestIndies.jpeg",
     name: "WestIndies",
   },
   {
-    image: "/public/image/Pakistan.png",
+    image: "/public/media/image/Pakistan.png",
     name: "Pakistan",
   },
   {
-    image: "/public/image/southAfrica.png",
+    image: "/public/media/image/southAfrica.png",
     name: "South Africa",
   },
 ];

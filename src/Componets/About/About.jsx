@@ -14,7 +14,7 @@ function About() {
         <div className="flex flex-col md:flex-row items-center my-16">
           <div className="flex justify-center items-center flex-col w-[50%] ">
             <img
-              src="/public/image/BCCI.png"
+              src="/public/media/image/BCCI.png"
               alt="BCCI"
               className="w-48 h-48 object-cover rounded-full mb-4 md:mb-0"
             />
@@ -46,7 +46,7 @@ function About() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           <div className="text-center">
             <img
-              src="/public/image/Roger_Binny.jpg"
+              src="/public/media/image/Roger_Binny.jpg"
               alt="Roger Binny"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-2"
             />
@@ -55,7 +55,7 @@ function About() {
           </div>
           <div className="text-center">
             <img
-              src="/public/image/Amin.jpeg"
+              src="/public/media/image/Amin.jpeg"
               alt="Hemang Amin"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-2"
             />
@@ -64,7 +64,7 @@ function About() {
           </div>
           <div className="text-center">
             <img
-              src="/public/image/RajeevShukla.jpg"
+              src="/public/media/image/RajeevShukla.jpg"
               alt="Rajeev Shukla"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-2"
             />
@@ -73,7 +73,7 @@ function About() {
           </div>
           <div className="text-center">
             <img
-              src="/public/image/Jay.jpg"
+              src="/public/media/image/Jay.jpg"
               alt="Jay Shah"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-2"
             />
@@ -82,7 +82,7 @@ function About() {
           </div>
           <div className="text-center">
             <img
-              src="/public/image/AjitAgarkar.jpg"
+              src="/public/media/image/AjitAgarkar.jpg"
               alt="Ajit Agarkar"
               className="w-32 h-32 object-cover rounded-full mx-auto mb-2"
             />

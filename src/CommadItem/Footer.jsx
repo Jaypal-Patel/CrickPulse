@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-black text-white pt-4 pb-3">
       <div className="container mx-auto text-center">
         <div className="flex items-center ml-[44%] w-[110px] h-[110px]">
-          <img src="/public/image/logo3.png" className="object-cover" />
+          <img src="/public/media/image/logo3.png" className="object-cover" />
         </div>
         <p className="mb-6">
           The Board of Control for Cricket in India (BCCI) is the governing body
